@@ -14,6 +14,17 @@
   font-size: 100%;
 }
 
+/*  Seeing if I can change the background image opacity
+    https://stackoverflow.com/questions/12605908/change-background-image-opacity
+
+ */
+/*header {*/
+  /*background-size: cover;*/
+  /*background-image: url(../img/header.jpg);*/
+  /*background-color: rgba(255,255,255,0.6);*/
+  /*background-blend-mode: lighten;*/
+/*}*/
+
 /*  For the GitHub Section link
     These styles make the GitHub Section header appear white all the time,
     unless hovered on, in which case they turn blue. I like this style better.
