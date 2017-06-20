@@ -115,25 +115,44 @@
       </div>
 
       <div class="row">
+        <!--
+               Photo Album
 
-        <!-- Photo Album to go here
+               Using nanogalley2: https://github.com/nanostudio-org/nanogallery2
+               Info: http://nanogallery2.nanostudio.org/index.html
 
-         Using nanogalley2: https://github.com/nanostudio-org/nanogallery2
-         http://nanogallery2.nanostudio.org/index.html
+               Decided to store them locally on GitHub in git. Turns out there is no real Google Photos API,
+               and only an old Google+ / Pisca Web Albums API which seems pretty bad to use. Maybe Flickr could
+               work, since nanogalley2 also supports it. For now, a basic album works with 6 photos total.
 
-         Will try and pull from Google Photos album, or locally store them in Git.
-
-         Starting with trying to display an image from Google Photos
-
-         https://www.labnol.org/internet/embed-google-photos-in-website/29194/
-         https://ctrlq.org/google/photos/
-
+               Need to experiment more with this library and see what else it can do.
          -->
-
-        <!-- Photo Album -->
         <div class="col-lg-12 text-center">
           <div id="nanogallery2" data-nanogallery2>
-            <a href='img/album/IMG_20170315_223325_337.jpg' data-ngdesc="A day at Cannon Mountain 3/15/17"/>Cannon Mtn 3/15/2017</div>
+
+            <!-- Cannon Mtn 3/15/2017 -->
+            <a href="img/album/IMG_20170315_223325_337.jpg"
+               data-ngthumb="img/album/IMG_20170315_223325_337.jpg">Cannon Mtn 3/15/2017</a>
+
+            <!-- Bretton Woods 1/23/2016 -->
+            <a href="img/album/IMG_20160123_143850.jpg"
+               data-ngthumb="img/album/IMG_20160123_143850.jpg">Bretton Woods 1/23/2016</a>
+
+            <!-- Waterville Valley 2/27/16 -->
+            <a href="img/album/0227161301b.jpg"
+               data-ngthumb="img/album/0227161301b.jpg">Waterville Valley 2/27/16</a>
+
+            <!-- Cannon Mtn 12/10/2016 -->
+            <a href="img/album/IMG_20161210_150125.jpg"
+               data-ngthumb="img/album/IMG_20161210_150125.jpg">Cannon Mtn 12/10/2016</a>
+
+            <!-- Pats Peak 3/19/2015 -->
+            <a href="img/album/IMG_20150319_094810.jpg"
+               data-ngthumb="img/album/IMG_20150319_094810.jpg">Pats Peak 3/19/2015</a>
+
+            <!-- Waterville Valley - Opening Day of Green Peak 2/11/17 --->
+            <a href="img/album/0211171024c.jpg"
+               data-ngthumb="img/album/0211171024c.jpg">Waterville Valley - Opening Day of Green Peak 2/11/17</a>
           </div>
         </div>
 
