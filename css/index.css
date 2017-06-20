@@ -14,16 +14,22 @@
   font-size: 100%;
 }
 
+/* Better colors for the header text */
+.text-header {
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+.text-header-p {
+  color: white;
+}
+
 /*  Seeing if I can change the background image opacity
     https://stackoverflow.com/questions/12605908/change-background-image-opacity
 
+    Turns out its easier to just edit the background image in Paint.net / GIMP / Photoshop / etc.
+    For the "Trail 57" Background I just applied a 50% Gaussian Blur in Paint.net
  */
-/*header {*/
-  /*background-size: cover;*/
-  /*background-image: url(../img/header.jpg);*/
-  /*background-color: rgba(255,255,255,0.6);*/
-  /*background-blend-mode: lighten;*/
-/*}*/
 
 /*  For the GitHub Section link
     These styles make the GitHub Section header appear white all the time,
