@@ -10,6 +10,14 @@
     This file contains CSS classes / IDs used to override the Creative Bootstrap Theme
 */
 
+/*
+    Tweaking the header image, it's being set to "Center" but I'd rather it
+    show the top of the image instead ("Top")
+    
+    Note: Disabled for Skiing because I like how the header image looks without it
+          for this page.
+*/
+  
 .text-small {
   font-size: 100%;
 }
@@ -22,6 +30,7 @@
 
 .text-header-p {
   color: white;
+  background-color: black;
 }
 
 /*  Seeing if I can change the background image opacity
