@@ -4,8 +4,8 @@
     Contact: jason@downing.io
     MIT Licensed - see http://opensource.org/licenses/MIT for details.
     Anyone may freely use this code. Just don't sue me if it breaks stuff.
-    Created: September 3rd, 2015.
-    Last Updated: November 8th. 2020.
+    Created: September 3rd, 2015
+    Last Updated: November 15th, 2020
 
     This file contains CSS classes / IDs used to override the Creative Bootstrap Theme
 */
@@ -25,6 +25,12 @@
 .text-header {
   color: white;
   text-shadow: 4px 4px 4px #000000;
+}
+/* Niffy trick: https://stackoverflow.com/a/14310180 */
+.text-header span {
+	background-color: black;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .text-header-p {
