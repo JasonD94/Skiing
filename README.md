@@ -1,2 +1,4 @@
 # Skiing
-This will be an album of sorts with tons of epic skiing photos taken in the last few years
+Collection of photos taken during ski trips to Vermont, New Hampshire and Maine between 2015 and 2020
+
+[downing.io/Skiing/](https://downing.io/Skiing/)
