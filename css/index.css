@@ -22,6 +22,10 @@
   background-position: bottom;
 }
 
+header .header-content-pos {
+	transform: translateY(-90%)
+}
+
 .text-small {
   font-size: 100%;
 }
