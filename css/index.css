@@ -5,18 +5,23 @@
     MIT Licensed - see http://opensource.org/licenses/MIT for details.
     Anyone may freely use this code. Just don't sue me if it breaks stuff.
     Created: September 3rd, 2015
-    Last Updated: November 15th, 2020
+    Last Updated: February 21st, 2021
 
     This file contains CSS classes / IDs used to override the Creative Bootstrap Theme
 */
 
 /*
-    Tweaking the header image for this particular header
+    Tweaking the header image, it's being set to "Center" but I'd rather it
+    show the top of the image instead ("Top")
+	  
+		I sometimes tweak this value across my index.css files, but for the
+		current (11/15/2020) header pic background-position: top actually makes
+		the photo look better and align nicely with the text.
 */
 #page-top > header {
   background-position: bottom;
 }
-  
+
 .text-small {
   font-size: 100%;
 }
@@ -38,12 +43,12 @@
   background-color: black;
 }
 
-/*  Seeing if I can change the background image opacity
-    https://stackoverflow.com/questions/12605908/change-background-image-opacity
-
-    Turns out its easier to just edit the background image in Paint.net / GIMP / Photoshop / etc.
-    For the "Trail 57" Background I just applied a 50% Gaussian Blur in Paint.net
- */
+/* For the new header, all text shall be black around the intro section 
+	 Will hopefully be easier to read.
+*/
+.text-black {
+	color: black;
+}
 
 /*  For the GitHub Section link
     These styles make the GitHub Section header appear white all the time,
